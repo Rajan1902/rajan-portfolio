@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    // border: 1px solid red;
+    background-color: black;
+    color: white;
+
+  }
+.logo{
+  width: 10rem;
+  position: fixed;
+  top: 10px;
+}
+  section{
+    height: 100vmin;
+    background-color: black;
+    color: white;
+  }
+
+  .banner{
+
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 18rem;
+
+    }
+    h1{
+     font-family: 'Roboto', sans-serif;
+     font-size: 4rem;
+    }
+    .insideBanner{
+        padding: 3rem;
+    }
+  }
+  .imgdiv{
+    display: flex;
+    flex-direction: column;
+  }
+  .btn{
+    margin-top: 1rem;
+    width: 100%;
+
+  }
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-container{
+  display: flex;
+  flex-direction: row;
+}
+.footerlogo{
+  margin: 1rem;
+  cursor: pointer;
+  width: 50px;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.btnurl{
+  text-decoration: none;
+  color: white;
+}
+  // animation
+
