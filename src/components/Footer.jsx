@@ -8,9 +8,9 @@ import twitter from '../Assets/twitter.png'
 
 function Footer() {
   return (
-    <div>
+    
         <footer>
-            <p>Copyright - Rajan Singh (2023) </p>
+            <p>© Copyright - Rajan Singh (2023) </p>
             <hr />
             <div className="footer-container">
             <ul>
@@ -25,7 +25,6 @@ function Footer() {
             </div>
 
         </footer>
-    </div>
   )
 }
 

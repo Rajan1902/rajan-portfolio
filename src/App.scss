@@ -13,7 +13,7 @@
   top: 10px;
 }
   section{
-    height: 100vmin;
+    height: 80vmin;
     background-color: black;
     color: white;
   }
@@ -38,6 +38,9 @@
     .insideBanner{
         padding: 3rem;
     }
+    .bannerSubText{
+      color: gray;
+    }
   }
   .imgdiv{
     display: flex;
@@ -48,11 +51,35 @@
     width: 100%;
 
   }
+  //project
+.projects{
+  height: 50vmin;
+}
+.project-title{
+  text-align: center;
+  padding-top: 1rem; 
+  padding-bottom: 1rem; 
+}
+.card-link{
+  text-decoration: none;
+:hover{
+  opacity: 0.9;
+}
+
+}
+  .project-cards{
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+  //footer
 footer{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 .footer-container{
   display: flex;
@@ -75,3 +102,81 @@ ul{
 }
   // animation
 
+
+  //tablet view
+  @media screen and (min-width: 600px) and (max-width: 1024px){
+    .banner{
+      h1{
+        font-size: 40px;
+      }
+      img{
+        width: 15rem;
+      }
+      .insideBanner{
+        padding: 1.5rem;
+    }
+    }
+    .logo{
+      top: 0px;
+    }
+    section{
+      height: 70vmin;
+    }
+    .project-cards{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+  }
+  //mobile view
+  @media screen and (min-width: 400px) and (max-width: 600px){
+
+    .banner{
+      margin-top: 45px;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+
+      h1{
+        font-size: 25px;
+      }
+      .bannerSubText{
+        font-size: 17px;
+      }
+      img{
+        width: 10rem;
+      }
+      .insideBanner{
+        padding: 1rem;
+    }
+    }
+    .logo{
+      top: 5px;
+      width: 7rem;
+      left: 100px;
+      z-index: 1;
+    }
+    section{
+      height: 90vmin;
+    }
+    .project-cards{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    ul{
+      flex-direction: column;
+    }
+    .footerlogo{
+      margin: 0.5rem;
+      cursor: pointer;
+      width: 40px;
+    }
+
+  }
+  
+  

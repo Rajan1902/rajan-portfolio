@@ -18,7 +18,7 @@ function Banner() {
     
         <div className="insideBanner">
           <h1>Hey! my name is Rajan Singh</h1>
-          <h3>And I'm a full stack web developer</h3>
+          <h3 className="bannerSubText">And I'm a full stack web developer</h3>
 
         </div>
         <div className="insideBanner imgdiv">
