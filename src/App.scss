@@ -131,7 +131,7 @@ ul{
 
   }
   //mobile view
-  @media screen and (min-width: 400px) and (max-width: 600px){
+  @media screen and (max-width: 600px){
 
     .banner{
       margin-top: 45px;
@@ -156,7 +156,7 @@ ul{
     .logo{
       top: 5px;
       width: 7rem;
-      left: 100px;
+      left: 20px;
       z-index: 1;
     }
     section{
