@@ -2,6 +2,7 @@ import './App.scss';
 import { useSpring, useTransition, animated } from 'react-spring';
 import Banner from './components/Banner';
 import Footer from './components/Footer';
+import Skills from './components/Skills'
 
 import Card from './components/Card';
 import blog from './Assets/ProjectImg.png';
@@ -31,9 +32,10 @@ function App() {
       <animated.div style={bannerAnimation}>
         <Banner />
       </animated.div>
-      <hr />
+      <Skills/>
       <div className='mobile'>
         <animated.h4 style={titleAnimation} className='project-title'>Checkout some of my work</animated.h4>
+        <hr/>
         <div className='project-cards'>
           {transitions((style, project) => (
             <animated.div style={{ ...style }} className='card-arrange'>
@@ -42,7 +44,6 @@ function App() {
           ))}
         </div>
       </div>
-      <hr />
       <Footer />
     </div>
   );

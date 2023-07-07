@@ -33,7 +33,8 @@ function Footer() {
   return (
     <footer>
       <animated.div style={footerAnimation}>
-        <p style={{textAlign: "center"}}>© Copyright(2023) - Rajan Singh</p>
+        <p style={{textAlign: "center"}}>Let's Connect!</p>
+        <hr style={{width: "100%"}}/>
         <div className="footer-container">
           <ul>
             {trail.map((style, index) => (

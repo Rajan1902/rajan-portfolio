@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap');
+$aqua:                     #39D1B4;
 *{
     margin: 0;
     padding: 0;
     // border: 1px solid red;
-    background-color: black;
-    color: white;
+    background-color: #2a2a2a;
+    color: #cacaca;
 
   }
+  // hr tag
+  hr{
+    width: 60%;
+    margin: auto !important;
+    background-color: lime;
+    height: 2px;
+  }
+  
 .logo{
   width: 10rem;
   position: fixed;
@@ -14,16 +23,12 @@
 }
   section{
     height: 80vmin;
-    background-color: black;
-    color: white;
   }
 
   .banner{
 
     height: 100%;
     width: 100%;
-    background-color: black;
-    color:white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,6 +56,44 @@
     width: 100%;
 
   }
+  // skills
+  .skills {
+    background-color:#363636;
+    margin-bottom: 2rem;
+  }
+  
+  .skills-list {
+    background-color:#363636;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .skill {
+    background-color:#363636;
+    width: 16.66%; /* Each row will have 6 skills on laptop screens */
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  h2{
+    background-color: #363636;
+  }
+  .skill img {
+    background-color:#363636;
+    width: 5rem;
+    max-width: 100px;
+    height: 5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .skill p {
+    background-color:#363636;
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  
+
   //project
 .projects{
   height: 50vmin;
@@ -79,15 +122,13 @@ footer{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 .footer-container{
   display: flex;
   flex-direction: row;
-  justify-content: center;
 }
 .footerlogo{
-  margin: 1rem;
+  margin-top: 1rem;
   cursor: pointer;
   width: 50px;
 }
@@ -123,6 +164,14 @@ ul{
     section{
       height: 70vmin;
     }
+    .skill {
+      width: 25%; /* Each row will have 4 skills on smaller screens */
+      img{
+        width: 3rem;
+        height: 3rem;
+      }
+    }
+    
     .project-cards{
       display: flex;
       flex-direction: column;
@@ -162,6 +211,15 @@ ul{
     }
     section{
       height: 130vmin;
+    }
+
+    // skills
+    .skill {
+      width: 25%; /* Each row will have 4 skills on smaller screens */
+      img{
+        width: 40px;
+        height: 40px;
+      }
     }
     .project-cards{
       display: flex;
