@@ -27,7 +27,7 @@ function Footer() {
     opacity: 1,
     transform: 'translateY(0)',
     from: { opacity: 0, transform: 'translateY(20px)' },
-    delay: 2500,
+    delay: 1000,
   });
 
   return (

@@ -1,14 +1,14 @@
-import React from "react";
+
 import { useSpring, animated } from "react-spring";
 import bannerImg from "../Assets/rajan.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import resume from "../Assets/RajanFinalYearResume.pdf";
-import logo from '../Assets/rajan-logo-nobg.png'
+import logo from '../Assets/rajan-logo-nobg.png';
+import {Link} from 'react-router-dom'
 
 function Banner() {
-  const buttonHandler = () => {
-    window.open('mailto:rajansinghoo150@gmail.com', '_blank');
-  }
+
+
 
   const headingAnimation = useSpring({
     opacity: 1,
@@ -21,6 +21,7 @@ function Banner() {
     from: { opacity: 0 },
     delay: 1500,
   });
+
 
   return (
     <section>
@@ -36,7 +37,11 @@ function Banner() {
             <a href={resume}>
               <button className="btn btn-outline-light">Download CV</button>
             </a>
-            <button className="btn btn-outline-light" onClick={buttonHandler}>Collaborate</button>
+            <Link to="/collab">
+     <button type="button" className="btn btn-outline-light">
+          Collaborate
+     </button>
+ </Link>
           </div>
         </div>
       </div>

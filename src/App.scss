@@ -128,7 +128,7 @@ footer{
   flex-direction: row;
 }
 .footerlogo{
-  margin-top: 1rem;
+  margin: 2rem;
   cursor: pointer;
   width: 50px;
 }
@@ -142,7 +142,16 @@ ul{
   text-decoration: none;
   color: white;
 }
-  // animation
+// collaborate
+.collabMain{
+  max-width: 60%;
+  margin-top: 5rem ;
+  margin-bottom: 2rem;
+}
+.coffeeImg{
+  margin-top: 3rem;
+  width: 10rem;
+}
 
 
   //tablet view
@@ -235,7 +244,12 @@ ul{
       cursor: pointer;
       width: 40px;
     }
-
+    .coffeeImg{
+      width: 6rem;
+    }
+    .collabMain{
+      max-width: 100%;
+    }
   }
   
   

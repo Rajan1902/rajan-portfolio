@@ -1,9 +1,9 @@
 import './App.scss';
+import React from 'react';
 import { useSpring, useTransition, animated } from 'react-spring';
 import Banner from './components/Banner';
 import Footer from './components/Footer';
 import Skills from './components/Skills'
-
 import Card from './components/Card';
 import blog from './Assets/ProjectImg.png';
 import netflix from './Assets/netlix1.png';
@@ -48,5 +48,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
