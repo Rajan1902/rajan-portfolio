@@ -18,7 +18,7 @@ const Collaborate = () => {
       <div className="container text-center">
       <Link to='/'>
         
-        <button className='btn btn-outline-light' style={{width: "10rem", marginBottom: "1rem"}}>Go back</button>
+        <button className='btn btn-outline-info' style={{width: "10rem", marginBottom: "1rem"}}>Go back</button>
       </Link>
       </div>
     </div>

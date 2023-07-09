@@ -29,16 +29,16 @@ function Banner() {
         <img src={logo} alt="" className="logo" />
         <div className="banner">
           <div className="insideBanner">
-            <animated.h1 style={headingAnimation}>Hey! my name is Rajan Singh</animated.h1>
-            <animated.h3 style={subHeadingAnimation} className="bannerSubText">And I'm a full stack web developer</animated.h3>
+            <animated.h1 style={headingAnimation}>Hey! I'm <span style={{color: "#0dcaf0", fontFamily: "cursive"}}>RAJAN SINGH</span></animated.h1>
+            <animated.h3 style={subHeadingAnimation} className="bannerSubText">I'm a <span style={{color: "#0dcaf0", fontFamily: "cursive"}}>full stack web developer</span> </animated.h3>
           </div>
           <div className="insideBanner imgdiv">
             <img src={bannerImg} alt="" />
             <a href={resume}>
-              <button className="btn btn-outline-light">Download CV</button>
+              <button className="btn btn-outline-info">Download CV</button>
             </a>
             <Link to="/collab">
-     <button type="button" className="btn btn-outline-light">
+     <button type="button" className="btn btn-outline-info">
           Collaborate
      </button>
  </Link>

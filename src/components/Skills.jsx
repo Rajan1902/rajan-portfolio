@@ -38,7 +38,7 @@ function Skills() {
   return (
 
     <div className="skills">
-      <h2 style={{backgroundColor: "#363636", color: "#cacaca", textAlign: "center"}}>My Tech-Stack</h2>
+      <h2 style={{backgroundColor: "#363636", color: "#cacaca", textAlign: "center", fontFamily: 'cursive'}}>My Tech-Stack</h2>
       <hr/>
       <div className="skills-list" style={{marginTop: "2rem"}}>
         {trail.map((style, index) => (

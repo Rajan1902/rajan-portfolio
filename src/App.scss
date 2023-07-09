@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap');
-$aqua:                     #39D1B4;
 *{
     margin: 0;
     padding: 0;
@@ -12,7 +11,7 @@ $aqua:                     #39D1B4;
   hr{
     width: 60%;
     margin: auto !important;
-    background-color: lime;
+    background-color: #0dcaf0;
     height: 2px;
   }
   
@@ -43,9 +42,7 @@ $aqua:                     #39D1B4;
     .insideBanner{
         padding: 3rem;
     }
-    .bannerSubText{
-      color: gray;
-    }
+
   }
   .imgdiv{
     display: flex;
@@ -59,7 +56,7 @@ $aqua:                     #39D1B4;
   // skills
   .skills {
     background-color:#363636;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
   }
   
   .skills-list {
@@ -102,6 +99,7 @@ $aqua:                     #39D1B4;
   text-align: center;
   padding-top: 1rem; 
   padding-bottom: 1rem; 
+  font-family: cursive;
 }
 .card-link{
   text-decoration: none;
@@ -113,6 +111,7 @@ $aqua:                     #39D1B4;
   .project-cards{
     display: flex;
     justify-content: center;
+    margin-bottom: 5rem;
   }
 
 
@@ -235,6 +234,7 @@ ul{
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      margin: 0;
     }
     ul{
       flex-direction: column;
