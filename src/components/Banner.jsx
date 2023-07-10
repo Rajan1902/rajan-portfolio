@@ -29,8 +29,8 @@ function Banner() {
         <img src={logo} alt="" className="logo" />
         <div className="banner">
           <div className="insideBanner">
-            <animated.h1 style={headingAnimation}>Hey! I'm <span style={{color: "#0dcaf0", fontFamily: "cursive"}}>RAJAN SINGH</span></animated.h1>
-            <animated.h3 style={subHeadingAnimation} className="bannerSubText">I'm a <span style={{color: "#0dcaf0", fontFamily: "cursive"}}>full stack web developer</span> </animated.h3>
+            <animated.h1 style={headingAnimation}>Hey! I'm <span className= "textStyle" >RAJAN SINGH</span></animated.h1>
+            <animated.h3 style={subHeadingAnimation} className="bannerSubText">I'm a <span className= "subtextStyle">FULL STACK WEB DEVELOPER</span> </animated.h3>
           </div>
           <div className="insideBanner imgdiv">
             <img src={bannerImg} alt="" />

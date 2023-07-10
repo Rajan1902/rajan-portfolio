@@ -34,7 +34,7 @@ function App() {
       </animated.div>
       <Skills/>
       <div className='mobile'>
-        <animated.h4 style={titleAnimation} className='project-title'>Checkout some of my work</animated.h4>
+        <animated.h4 style={titleAnimation} className='project-title'>CHECKOUT SOME OF MY WORK</animated.h4>
         <hr/>
         <div className='project-cards'>
           {transitions((style, project) => (

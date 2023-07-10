@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Rajdhani:wght@500&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +8,16 @@
     background-color: #2a2a2a;
     color: #cacaca;
 
+  }
+  .textStyle{
+    font-size: 6rem;
+    font-family: 'Rajdhani', cursive;
+    color: #0dcaf0;
+  }
+  .subtextStyle{
+    font-size: 2.5rem;
+    font-family: 'Rajdhani', cursive;
+    color: #0dcaf0;
   }
   // hr tag
   hr{
@@ -54,6 +66,12 @@
 
   }
   // skills
+  .skillHeading{
+    background-color: "#363636";
+     color: "#cacaca";
+     text-align: center; 
+    font-family: 'Rajdhani';
+  }
   .skills {
     background-color:#363636;
     margin-bottom: 5rem;
@@ -99,7 +117,7 @@
   text-align: center;
   padding-top: 1rem; 
   padding-bottom: 1rem; 
-  font-family: cursive;
+  font-family: 'Rajdhani';
 }
 .card-link{
   text-decoration: none;
@@ -153,11 +171,19 @@ ul{
 }
 
 
-  //tablet view
+  //..........................tablet view.................................
+
+
   @media screen and (min-width: 600px) and (max-width: 1024px){
     .banner{
       h1{
         font-size: 40px;
+        .textStyle{
+          font-size : 50px;
+        }
+        .subtextStyle{
+          font-size: 20px;
+        }
       }
       img{
         width: 15rem;
@@ -201,8 +227,14 @@ ul{
       h1{
         font-size: 30px;
       }
+      .textStyle{
+        font-size: 35px;
+      }
       .bannerSubText{
         font-size: 17px;
+      }
+      .subtextStyle{
+        font-size: 24px;
       }
       img{
         width: 10rem;
