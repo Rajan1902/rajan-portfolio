@@ -14,17 +14,22 @@ const Card = (props) => {
   });
 
   return (
-    <animated.div ref={ref} className="card" style={{ ...cardAnimation, border: "none", width: '18rem', height: "18rem", backgroundColor: "black", margin: "20px" }}>
-      <a href={props.link} className="card-link" target="_blank" rel="noopener noreferrer">
+    <animated.div ref={ref} className="card" style={{ ...cardAnimation, border: "none", width: '18rem', height: "18rem", margin: "20px", boxShadow: '4px 4px 8px 8px rgba(0,0,0,0.1)' }}>
+
         <div className="card-content">
           <img className="card-img-top" src={props.img} alt="" style={{height: "10rem"}} />
           <div className="card-body" style={{height: "8rem"}}>
             <p className="card-text" style={{ textAlign: "center" }}>
               {props.text}
+              
             </p>
+            <a href={props.link} target="_blank" rel="noreferrer">
+            <button className="project-btn">VISIT SITE</button>
+            </a>
+           
           </div>
         </div>
-      </a>
+     
     </animated.div>
   );
 };

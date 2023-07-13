@@ -8,8 +8,6 @@ import {Link} from 'react-router-dom'
 
 function Banner() {
 
-
-
   const headingAnimation = useSpring({
     opacity: 1,
     from: { opacity: 0 },

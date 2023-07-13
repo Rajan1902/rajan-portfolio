@@ -119,17 +119,40 @@
   padding-bottom: 1rem; 
   font-family: 'Rajdhani';
 }
-.card-link{
-  text-decoration: none;
-:hover{
-  opacity: 0.9;
-}
-
+.project-btn{
+    // background-color: gray;
+    border: 1px solid #1dd9ff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    // color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Rajdhani';
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 5px;
+    outline: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    width: 50%;
+    &:hover{
+      transform: scaleY(1.1);
+      background-color: #0000001f;
+    }
 }
   .project-cards{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 3rem;
+  }
+  .card-arrange{
+    display: flex;
     justify-content: center;
-    margin-bottom: 5rem;
+    width: 33%; 
+    margin: 0 0;
+    text-align: center;
   }
 
 
@@ -208,9 +231,17 @@ ul{
     
     .project-cards{
       display: flex;
-      flex-direction: column;
+      flex-wrap: wrap;
+      // flex-direction: column;
       justify-content: center;
       align-items: center;
+    }
+    .card-arrange{
+      display: flex;
+      justify-content: center;
+      width: 50%; 
+      margin: 0 0;
+      text-align: center;
     }
 
   }
@@ -250,7 +281,7 @@ ul{
       z-index: 1;
     }
     section{
-      height: 150vmin;
+      height: 160vmin;
     }
 
     // skills
@@ -262,12 +293,22 @@ ul{
       }
     }
     .project-cards{
+      
       display: flex;
-      flex-direction: column;
+      flex-wrap: wrap;
+      // flex-direction: column;
       justify-content: center;
       align-items: center;
       margin: 0;
     }
+    .card-arrange{
+      display: flex;
+      justify-content: center;
+      width: 100%; 
+      margin: 0 0;
+      text-align: center;
+    }
+
     ul{
       flex-direction: column;
     }
