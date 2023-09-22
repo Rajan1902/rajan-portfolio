@@ -2,7 +2,7 @@
 import { useSpring, animated } from "react-spring";
 import bannerImg from "../Assets/rajan.png";
 import "bootstrap/dist/css/bootstrap.min.css";
-import resume from "../Assets/RajanFinalYearResume.pdf";
+import resume from "../Assets/resumeLatest.pdf";
 import logo from '../Assets/rajan-logo-nobg.png';
 import {Link} from 'react-router-dom'
 
