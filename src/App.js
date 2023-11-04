@@ -9,19 +9,21 @@ import blog from './Assets/ProjectImg.png';
 import netflix from './Assets/netlix1.png';
 import todo from './Assets/todo.png';
 import taxwisey from './Assets/taxwisey.png';
-import IndianMeals from './Assets/indianmeals.png'
-import ReduxBank from './Assets/reduxBank.png'
+import IndianMeals from './Assets/indianmeals.png';
+import ReactPizza from './Assets/ReactPizza.png';
+import ReduxBank from './Assets/reduxBank.png';
 
 function App() {
   const bannerAnimation = useSpring({ opacity: 1, from: { opacity: 0 }, delay: 500 });
   const titleAnimation = useSpring({ opacity: 1, from: { opacity: 0 }, delay: 1000 });
 
   const projects = [
-    {img: IndianMeals, link: "https://indianmeals.netlify.app/", text: "Food Delivery web app made with react"},
+    {img: ReactPizza, link: "https://react-pizza-rjn.netlify.app/", text: "Fully functional pizza delivery webApp"},
     { img: blog, link: "https://jocular-moonbeam-a96b4f.netlify.app/", text: "A blog website that I made as a sample for some client" },
+    { img: taxwisey, link: "https://taxwisey.com/#", text: "I worked on this website as an intern with Tax Wisey." },
     { img: netflix, link: "https://netflix-desktop-clone.netlify.app/", text: "Netflix Desktop landing page clone (frontend)"},
     { img: todo, link: "https://todo-rajan.netlify.app/", text: "ToDo list web app made with react.js" },
-    { img: taxwisey, link: "https://taxwisey.com/#", text: "I worked on this website as an intern with Tax Wisey." },
+    {img: IndianMeals, link: "https://indianmeals.netlify.app/", text: "Food Delivery web app made with react"},
     {img: ReduxBank, link : "https://reduxbank.netlify.app/", text : "Banking web app using react with redux"},
   ];
 
