@@ -11,7 +11,7 @@ const Collaborate = () => {
       <img src={Logo} alt="" className="logo" />
     <div className='container text-center collabMain' style={{maxWidth: '70%'}}>
      <h1>Feel free to reach out to me through any of these platforms below</h1> 
-     <p>Coffee on me!</p>
+     <p>Tea's on me🤝! </p>
      <img src={Coffee} alt="" className='coffeeImg'/>
      </div>
       <Footer></Footer>
