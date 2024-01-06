@@ -19,6 +19,27 @@
     font-family: 'Rajdhani', cursive;
     color: #0dcaf0;
   }
+  .header-div{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    text-align: center;
+    padding: 20px;
+    li{
+      padding: 5px;
+      a{
+        text-decoration: none;
+        color: #cacaca;
+        font-size: 1.2rem;
+      }
+    }
+    :hover{
+      font-size:1.3rem;
+      color: #0dcaf0;
+    }
+
+  }
+
   // hr tag
   hr{
     width: 60%;
@@ -247,6 +268,34 @@ ul{
   }
   //mobile view
   @media screen and (max-width: 600px){
+    ul{
+      flex-direction: column;
+    }
+    .header-div{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-left: 100px;
+      text-align: center;
+      padding: 5px;
+      ul{
+        display: flex;
+        flex-direction: row;
+      }
+      li{
+        padding: 5px;
+        a{
+          text-decoration: none;
+          color: #cacaca;
+          font-size: 1.2rem;
+        }
+      }
+      :hover{
+        font-size:1.3rem;
+        color: #0dcaf0;
+      }
+  
+    }
 
     .banner{
       margin-top: 45px;
@@ -309,9 +358,7 @@ ul{
       text-align: center;
     }
 
-    ul{
-      flex-direction: column;
-    }
+ 
     .footerlogo{
       margin: 0;
       margin-top: 1rem;

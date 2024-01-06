@@ -37,7 +37,7 @@ function Skills() {
 
   return (
 
-    <div className="skills">
+    <div className="skills" id="skills">
       <h2 className="skillHeading">MY TECH-STACK</h2>
       <hr/>
       <div className="skills-list" style={{marginTop: "2rem"}}>

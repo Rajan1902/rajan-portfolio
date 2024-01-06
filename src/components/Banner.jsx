@@ -22,9 +22,18 @@ function Banner() {
 
 
   return (
-    <section>
+    <section id="home">
       <div className="main-container">
-        <img src={logo} alt="" className="logo" />
+      <img src={logo} alt="" className="logo" />
+        <div className="header-div">
+        
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          
+        </ul>
+        </div>
         <div className="banner">
           <div className="insideBanner">
             <animated.h1 style={headingAnimation}>Hey! I'm <span className= "textStyle" >RAJAN SINGH</span></animated.h1>

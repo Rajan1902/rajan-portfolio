@@ -39,7 +39,7 @@ function App() {
         <Banner />
       </animated.div>
       <Skills/>
-      <div className='mobile'>
+      <div className='mobile' id='projects'>
         <animated.h4 style={titleAnimation} className='project-title'>CHECKOUT SOME OF MY WORK</animated.h4>
         <hr/>
         <div className='project-cards'>
