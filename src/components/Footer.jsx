@@ -5,7 +5,7 @@ import github from '../Assets/github-logo1.png';
 import linkedin from '../Assets/linkedin.svg';
 import call from '../Assets/call.jpg';
 import email from '../Assets/email.avif';
-import twitter from '../Assets/twitter.png';
+import twitter from '../Assets/twitter.avif';
 
 function Footer() {
   const footerAnimation = useSpring({
